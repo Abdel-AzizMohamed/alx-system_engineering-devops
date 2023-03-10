@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=13-change_group
+fileName=102-if_only
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
