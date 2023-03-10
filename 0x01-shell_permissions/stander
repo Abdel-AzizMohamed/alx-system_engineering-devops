@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=102-if_only
+fileName=103-Star_Wars
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
