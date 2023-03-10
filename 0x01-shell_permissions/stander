@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=10-mirror_permissions
+fileName=13-change_group
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
