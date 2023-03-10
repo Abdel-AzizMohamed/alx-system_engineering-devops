@@ -1,0 +1,6 @@
+#!/bin/bash
+fileName=5-execute
+touch $fileName
+chmod 777 $fileName
+echo "#!/bin/bash" > $fileName
+nano $fileName
