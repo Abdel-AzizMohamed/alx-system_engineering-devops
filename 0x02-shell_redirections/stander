@@ -1,6 +1,6 @@
 #!/bin/bash
-fileName=9-duplicate_last_line
+fileName=12-newest_files
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
-vi $fileName
+nano $fileName
