@@ -1,6 +1,7 @@
 #!/bin/bash
-fileName=15-countthatword
+fileName=103-the_biggest_fan
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
 nano $fileName
+
