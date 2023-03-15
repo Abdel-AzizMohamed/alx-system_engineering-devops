@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=0-hello_world
+fileName=2-hellofile
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
