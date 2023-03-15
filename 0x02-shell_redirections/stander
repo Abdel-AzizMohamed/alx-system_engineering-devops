@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=2-hellofile
+fileName=3-twofiles
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
