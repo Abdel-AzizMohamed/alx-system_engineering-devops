@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=12-newest_files
+fileName=15-countthatword
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
