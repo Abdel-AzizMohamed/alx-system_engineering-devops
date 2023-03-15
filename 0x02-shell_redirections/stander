@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=5-firstlines
+fileName=6-third_line
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
