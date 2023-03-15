@@ -1,5 +1,5 @@
 #!/bin/bash
-fileName=8-cwd_state
+fileName=9-duplicate_last_line
 touch $fileName
 chmod 777 $fileName
 echo "#!/bin/bash" > $fileName
