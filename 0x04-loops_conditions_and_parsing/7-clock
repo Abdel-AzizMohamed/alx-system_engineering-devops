@@ -4,6 +4,8 @@
 i=1
 j=1
 
+echo "Hour: 0"
+
 while [ $j -lt 13 ]
 do
 	if [ $i -eq 60 ]
