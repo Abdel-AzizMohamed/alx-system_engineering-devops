@@ -1,0 +1,15 @@
+# C ignore
+*.out
+
+# tmp files
+*.log
+*.swp
+
+# Python ignore
+*.pyc
+
+#linux ignore
+
+#my ignore
+flags
+debug_commands
