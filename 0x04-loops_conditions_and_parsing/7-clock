@@ -6,12 +6,15 @@ j=1
 
 echo "Hour: 0"
 
-while [ $j -lt 13 ]
+while [ $j -lt 14 ]
 do
 	if [ $i -eq 60 ]
 	then
 		i=1
-		echo "Hour: $j"
+		if [ $j -ne 13 ]
+		then
+			echo "Hour: $j"
+		fi
 		(( j++ ))
 		continue
 	fi
