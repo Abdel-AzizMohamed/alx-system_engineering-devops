@@ -9,7 +9,7 @@ do
 	if [ $i -eq 60 ]
 	then
 		i=1
-		echo "Hour $j"
+		echo "Hour: $j"
 		(( j++ ))
 		continue
 	fi
