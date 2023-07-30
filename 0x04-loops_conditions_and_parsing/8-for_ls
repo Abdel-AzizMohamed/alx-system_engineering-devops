@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 # display dir content in list view that only contains file/dirs name
 
-for item in $(ls)
+LIST=$(ls)
+
+for item in $LIST
 do
-	echo $item | cut -d '-' -f2
+	echo "$item" | cut -d '-' -f2
 done
