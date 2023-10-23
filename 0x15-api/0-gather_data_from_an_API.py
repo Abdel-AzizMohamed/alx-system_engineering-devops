@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# display Employee Tasks info
+"""display Employee Tasks info"""
 import requests
 from sys import argv
 
