@@ -15,6 +15,7 @@ if __name__ == "__main__":
         if todo["completed"]:
             complete.append(todo["title"])
 
-    print("Employee {} is done with tasks({}/{}):".format(user["name"], len(complete), len(todos)))
+    print("Employee {} is done with tasks({}/{}):".format(user["name"],
+          len(complete), len(todos)))
     for item in complete:
         print("\t{}".format(item))
