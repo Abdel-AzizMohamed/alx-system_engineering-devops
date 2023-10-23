@@ -12,10 +12,10 @@ if __name__ == "__main__":
     complete = []
 
     for todo in todos:
-        if todo["completed"]:
-            complete.append(todo["title"])
+        if todo.get("completed"):
+            complete.append(todo.get("title"))
 
-    print("Employee {} is done with tasks({}/{}):".format(user["name"],
+    print("Employee {} is done with tasks({}/{}):".format(user.get("name"),
           len(complete), len(todos)))
     for item in complete:
         print("\t {}".format(item))
